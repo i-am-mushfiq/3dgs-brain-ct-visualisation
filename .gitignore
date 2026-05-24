@@ -1,3 +1,7 @@
+# --- Tool output folders ---
+JP2 to PNG converter/Output_Data/
+JP2 to PNG converter/Output_PNG/
+
 # --- Brain scan data (large binary, kept alongside repo) ---
 Brain1_JP2/
 Brain2_JP2/
