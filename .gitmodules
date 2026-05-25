@@ -1,0 +1,3 @@
+[submodule "cinematic-gaussians"]
+	path = cinematic-gaussians
+	url = https://github.com/i-am-mushfiq/cinematic-gaussians.git

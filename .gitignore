@@ -1,25 +1,25 @@
-# --- Tool output folders ---
-JP2 to PNG converter/Output_Data/
-JP2 to PNG converter/Output_PNG/
+# --- Raw source data (large binary files, not tracked) ---
+data/raw/
 
-# --- Brain scan data (large binary, kept alongside repo) ---
-Brain1_JP2/
-Brain2_JP2/
-JP2 to PNG converter/Brain/
-JP2 to PNG converter/Brain_partial/
-Napari Viewer(Not a must have)/Brain2_PNG/
-Napari Viewer(Not a must have)/Images/
+# --- Tool output and working directories ---
+tools/preprocessing/Output_Data/
+tools/preprocessing/Output_PNG/
+tools/preprocessing/Brain/
+tools/preprocessing/Brain_partial/
+tools/visualization/Brain2_PNG/
+tools/visualization/Images/
 
 # --- Python virtual environments ---
-JP2 to PNG converter/venv/
-Napari Viewer(Not a must have)/brainview/
+tools/preprocessing/venv/
+tools/visualization/brainview/
+**/venv/
+**/__pycache__/
 
-# --- cinematic-gaussians internals (managed by inner repo) ---
+# --- cinematic-gaussians internals (managed by submodule) ---
 cinematic-gaussians/Training_Data*/
 cinematic-gaussians/Test_Model*/
 cinematic-gaussians/Tank_Test_Model*/
 cinematic-gaussians/Brain2_PNG/
 cinematic-gaussians/Rendering_Related_Files/
 cinematic-gaussians/submodules/
-cinematic-gaussians/__pycache__/
 cinematic-gaussians/*.pyd
