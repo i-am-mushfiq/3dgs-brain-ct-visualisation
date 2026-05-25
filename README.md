@@ -1,5 +1,5 @@
 
-# Thesis(PreDefence) — 3D Gaussian Splatting for Cinematic Anatomy on Consumer-Class Devices
+# 3D Gaussian Splatting for Cinematic Anatomy on Consumer-Class Devices —  [Thesis - PreDefence] 
 
 **Pre-defence research repository**
 
